@@ -1,7 +1,6 @@
 import React from "react"
 export default function Pad(props) {
 
-
     const [isOn, setIsOn] = React.useState(props.on)
 
     function toggleClick(){
